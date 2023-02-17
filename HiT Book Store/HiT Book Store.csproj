@@ -7,4 +7,12 @@
     <RootNamespace>HiT_Book_Store</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Shared\Login.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Login.cshtml" />
+  </ItemGroup>
+
 </Project>

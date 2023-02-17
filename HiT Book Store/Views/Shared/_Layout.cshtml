@@ -3,10 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - HiT_Book_Store</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/HiT_Book_Store.styles.css" asp-append-version="true" />
+    <title>@ViewData["Title"] - HiT Book Store</title>
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/HiT_Book_Store.styles.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/fontawesome.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/fontawesome.min.css" asp-append-version="true"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">        
 </head>
 <body>
     <header>
@@ -25,6 +33,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -36,14 +47,38 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="bg-black" id="tempaltemo_footer">
         <div class="container">
-            &copy; 2023 - HiT_Book_Store - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row text-light mb-4">
+             
         </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; <b class="">HiT Book Store</b>
+                            | Designed by <a rel="sponsored" href="https://github.com/peateaVN/HiT-Book-Store" target="_blank">T & T</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/login.js"></script>
+    <script src="~/js/jquery-1.11.0.min.js"></script>
+    <script src="~/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/templatemo.js"></script>
+    <script src="~/js/custom.js"></script> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
