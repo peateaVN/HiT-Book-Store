@@ -3,7 +3,7 @@ $(document).ready(function() {
     var panelTwo = $('.form-panel.two')[0].scrollHeight;
     var scroll = document.getElementById('scrollTarget');
 
-    scroll.scrollIntoView(true);
+    window.scrollBy(0, 100);
 
     $('.form-panel.two').not('.form-panel.two.active').on('click', function(e) {
   

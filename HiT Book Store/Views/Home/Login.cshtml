@@ -9,8 +9,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
     </head>
-    <body>
-        <div class="form" id="scrollTarget">
+    <body id="scrollTarget">
+        <div class="form">
             <div class="form-toggle"></div>
             <div class="form-panel one">
                 <div class="form-header">
@@ -22,11 +22,11 @@
                         <div class="form-group"><label for="txtPassword">Password</label><input type="password" id="txtPassword" name="txtPassword" required="required" /></div>
                         <div class="form-group"><label class="form-remember"><input type="checkbox" />Remember Me</label></div>                        
                         <div class="form-group"><a class="form-recovery" href="#">Forgot Password?</a><a class="form-recovery" href="#">New to HiT? Register now</a></div> 
-                        <div class="form-group"><button type="submit" value="Login" name="btnAction">Log in</button></div>
+                        <div class="form-group"><button class="btn-hover" type="submit" value="Login" name="btnAction">Log in</button></div>
                     </form>
                     <div><h5>or</h5></div>
                     <form action="home.jsp">
-                        <div class="form-group"><button type="submit">Log in with google</button></div>
+                        <div class="form-group"><button class="btn-hover" type="submit">Log in with google</button></div>
 
                     </form>
                 </div>
@@ -35,7 +35,7 @@
             </div>
             <div class="form-panel two">
                 <div class="form-header">
-                    <h1>Register Account</h1>
+                    <h1>Register new account</h1>
                 </div>
                 <div class="form-content"  >
                     <form action="ServletDispatcher" method="POST">
