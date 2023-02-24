@@ -5,6 +5,6 @@
 | Name  | GitHub page   |
 |---|---|
 | Nguyễn Phan Phước Thịnh | [peateaVN](https://github.com/peateaVN) |
-| Phan Lâm Chí Thông | [phanlamchithong](https://github.com/timmy2k) |
+| Phan Lâm Chí Thông | [phanlamchithong](https://github.com/timmyk2) |
 
 ---
